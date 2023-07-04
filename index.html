@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="bem">
+    <meta name="description" content="/">
+    <title>BEM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!--Шапка страницы-->
+    <div class="header">
+        <div class="header__inner">
+            <div class="logo">
+                <a href="/"><img class="logo__img" src="/logo.jfif" alt="logo"></a>
+            </div>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav_list-item">
+                        <a class="nav-link" href="#">Главная</a>
+                    </li>
+                    <li class="nav_list-item">
+                        <a class="nav-link" href="#">О нас</a>
+                    </li>
+                    <li class="nav_list-item">
+                        <a class="nav-link" href="#">Портфолио</a>
+                    </li>
+                    <li class="nav_list-item">
+                        <a class="nav-link" href="#">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!--Первый блок. Оглавление. Текст. Картинка-->
+      <main>
+        <h1 class="titele">Вода</h1>
+        <p class="titele__description">Вода́ (оксид водорода, гидроксид водорода, химическая формула — H2O)
+           — бинарное неорганическое соединение, молекула которого состоит 
+           из двух атомов водорода и одного — кислорода, которые соединены 
+           между собой ковалентной связью. При нормальных условиях представляет 
+           собой прозрачную жидкость, не имеющую цвета (при малой толщине слоя),
+            запаха и вкуса. В твёрдом состоянии называется льдом 
+            (кристаллы льда могут образовывать снег или иней), а в газообразном
+             — водяным паром. Вода также может существовать в виде жидких 
+             кристаллов (на гидрофильных поверхностях)
+        </p>
+        <img class="image" src="/ozero.jpg" alt="image" class="section-information__image">
+      </main>  
+
+    <!--Второй блок. Информация. Картинка-->
+    <section class="information">
+        <div class="container">
+            <h2 class="information__title">Информация</h2>
+               <p class="information__text">
+                    Исключительно важна роль воды в глобальном кругообороте вещества 
+                    и энергии, возникновении и поддержании жизни на Земле, 
+                    в химическом строении живых организмов, в формировании климата и 
+                    погоды. Вода является важнейшим веществом для всех живых существ 
+                    на Земле. В среднем в организме растений и животных содержится 
+                    более 50 % воды
+                </p>
+               <div>
+                   <img class="information__img" src="/Baykal.jfif" alt="image">
+               </div>
+        </div>
+    </section>    
+
+    <!--Третий блок-->
+    <section class="advantages">
+        <div class="container">
+            <h2 class="advantages__title">Преимущества</h2>
+            <div class="advantages__items">
+                <div class="advantages__items-number">1</div>
+                <div class="advantages__item">
+                    <p class="advantages__item-text">Вода является хорошим сильнополярным растворителем</p>
+                </div>
+                <div class="advantages__items-number">2</div>
+                <div class="advantages__item">
+                    <p class="advantages__item-text">В природных условиях всегда содержит растворённые вещества (соли, газы).</p>
+                </div>
+                <div class="advantages__items-number">3</div>
+                <div class="advantages__item">
+                    <p class="advantages__item-text">Вода — это одно из немногих веществ в природе, 
+                        которые расширяются при переходе из жидкой фазы в твёрдую</p>
+                </div>
+                <div class="advantages__items-number">4</div>
+                <div class="advantages__item">
+                    <p class="advantages__item-text">Вода покрывает 71 % поверхности земного шара !</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Четвертый блок-->
+<section class="review">
+    <div class="container">
+        <div class="review__inner">
+            <div class="title">
+                <h2 class="reviews__title-review">Отзыв</h2> 
+            </div>
+            <div class="review__items">
+                <div class="review__item">
+                    <div class="review__item-img">
+                        <img src="/wother.jfif" alt="image">
+                    </div>
+                    <div class="review__item-desc">Утоляет жажду.В холодном состоянии помогаетв жару. 
+                         согревает в холова горячим чаем.</div>
+                    </div>
+                    <div class="review__item">
+                       <div class="review__item-img">
+                          <img src="/wother2.jfif" alt="image">
+                    </div>
+                    <div class="review__item-desc">Человеческий организм состоит на 70% из
+                          воды, она помогат ему бороться с болезнями и растворять в нём
+                          органические минералы.</div>
+                    </div>
+                    <div class="review__item">
+                        <div class="review__item-img">
+                            <img src="/wather3.jfif" alt="image">
+                        </div>
+                     <div class="review__item-desc">Вода неотемлемая часть флоры и фауны
+                          нашей планеты земля.</div>
+                 </div>
+             </div>
+        </div>
+    </div>
+</section>
+
+<!--Пятый блок-->
+<section class="news">
+    <div class="container">
+        <div class="news__inner">
+            <div class="title">Новости</div>
+            <div class="news__items">
+                <div class="news__item news__item-1">
+                    <div class="news__item-title">Опасные вещества в воде</div>
+                    <div class="news__item-desc">Количество несчастных случаев с загрязняющими веществами снизилось еще больше по сравнению с предыдущим годом.</div>
+                    <div class="news__news__item-btn">
+                        <button> <a
+                                href="https://aussiedlerbote.de/2022/10/snizhenie-neschastnyx-sluchaev-s-opasnymi-veshhestvami-vody/"
+                                class="news__item-link">Читай больше</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="news__item news__item-2">
+                    <div class="news__item-title">Когда хобби приносит пользу.</div>
+                    <div class="news__item-desc">Деятельность организации разнообразна: это и программы для детей и молодежи,
+                         и общественно-просветительские акции, направленные на сокращение использования пластика</div>
+                    <div class="news__news__item-btn">
+                        <button><a
+                                href="https://news.un.org/ru/interview/2020/11/1390282"
+                                class="news__item-link">Читай больше</a> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+</div>
+
+<!--Подвал-->
+<footer class="footer">
+    <div class="footer__content">
+        <div class="footer__copyright"><small>&copy;2022 Все права защещины.</small></div>
+        <div class="footer__links">
+            <div><a class="footer_link" href="https://www.instagram.com/">Instagram</a>
+                <a class="footer_link footer_link-two" href="https://www.linkedin.com/">LinkdIn</a>
+            </div>
+        </div>
+        <div class="footer__text">Not interested anymore? <span><a class="click-link" href="#">Click here
+                </a></span>
+            to unsubscribe or reply with
+            "Remove" in the subject. </div>
+    </div>
+</footer>
+</body>
+</html>
